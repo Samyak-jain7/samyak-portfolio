@@ -595,3 +595,18 @@ h3 {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+.project-grid.featured-only {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-grid.featured-only .project-card {
+  min-height: 300px;
+}
+
+@media (max-width: 900px) {
+  .project-grid.featured-only {
+    grid-template-columns: 1fr;
+  }
+}
