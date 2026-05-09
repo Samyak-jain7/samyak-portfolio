@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp index.html styles.css dist/",
+    "lint": "python3 -m html.parser index.html >/dev/null && test -s styles.css",
+    "dev": "python3 -m http.server 3000",
+    "preview": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

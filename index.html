@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Samyak Jain — Backend, data infrastructure, and AI systems engineer." />
+  <title>Samyak Jain | Backend & AI Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#top"><span class="brand-mark">SJ</span><span>Samyak Jain</span></a>
+    <div class="nav-links"><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <main>
+    <section id="top" class="hero section-shell">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Backend Systems · Data Infrastructure · Applied AI</p>
+          <h1>I build backend platforms that survive scale, traffic, and real production pressure.</h1>
+          <p class="hero-text">I'm Samyak Jain — Software Engineer II with experience across Amazon, Allen Digital, Fivetran, and Observe.AI. I specialize in distributed systems, Kafka-based data pipelines, high-throughput APIs, and AI-native backend products.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">View work</a><a class="button secondary" href="mailto:sj221097@gmail.com">Contact me</a></div>
+        </div>
+        <aside class="command-panel reveal delay-1">
+          <div class="terminal-bar"><span></span><span></span><span></span><p>profile.runtime</p></div>
+          <div class="terminal-body"><p><span>$</span> engineer --focus backend --mode production</p><p class="muted">status: open_to_sde2_backend_roles</p><p class="muted">stack: java python golang kafka k8s aws</p><p class="muted">specialty: scalable data + AI infrastructure</p></div>
+        </aside>
+      </div>
+      <div class="stats-grid reveal delay-2"><div class="stat-card"><strong>5+</strong><span>Years engineering production systems</span></div><div class="stat-card"><strong>150K+</strong><span>Peak requests/sec handled</span></div><div class="stat-card"><strong>98%</strong><span>Cache hit rate achieved</span></div><div class="stat-card"><strong>6+</strong><span>Production CDC pipelines</span></div></div>
+    </section>
+
+    <section class="section-shell about reveal delay-1">
+      <div class="section-label">About</div>
+      <div class="about-card"><h2>Senior backend engineer with a data-infra edge.</h2><p>I work best where backend engineering meets scale: CDC systems, Kafka streams, cache-heavy APIs, multi-tenant infrastructure, and reliability automation. My recent work spans MongoDB → Snowflake replication, Kubernetes-hosted Kafka Connect clusters, and taxonomy services serving massive read traffic.</p><p>B.Tech CSE from Jaypee Institute of IT. Currently focused on stronger system design, AI infrastructure, and SDE2/SWE roles that reward deep backend ownership.</p></div>
+    </section>
+
+    <section id="experience" class="section-shell reveal">
+      <div class="section-header"><div><div class="section-label">Experience</div><h2>Production systems, not toy demos.</h2></div><p>Four engineering chapters across infra, data, consumer-scale education, and Amazon-scale systems.</p></div>
+      <div class="timeline">
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-topline"><div><h3>Observe.AI</h3><p>Software Engineer II</p></div><span>Aug 2025 — Nov 2025</span></div><p class="summary">Architected DataPulse, an enterprise CDC platform moving MongoDB data into Snowflake across production pipelines.</p><ul><li>Processed millions of documents daily across 6+ production CDC pipelines</li><li>Deployed a 3-replica Kafka Connect cluster on Kubernetes with Strimzi</li><li>Reduced network overhead by 40% using ZSTD compression, batching, and 512MB buffers</li><li>Built Python automation for Debezium snapshots and self-service backfills</li></ul><div class="chip-row"><span>Debezium</span><span>Kafka Connect</span><span>Snowflake</span><span>MongoDB</span><span>Kubernetes</span><span>Python</span></div></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-topline"><div><h3>Fivetran</h3><p>Software Engineer II</p></div><span>Nov 2024 — Mar 2025</span></div><p class="summary">Worked on analytical data pipelines and performance improvements for large-scale ingestion workloads.</p><ul><li>Migrated clustering strategy from Z-Order to Liquid Clustering</li><li>Improved analytical query performance by 20%</li><li>Built Python data quality checks and automated ingestion tests</li></ul><div class="chip-row"><span>Java</span><span>Python</span><span>Snowflake</span><span>Data Pipelines</span></div></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-topline"><div><h3>Allen Digital</h3><p>Software Engineer II</p></div><span>Jul 2023 — Nov 2024</span></div><p class="summary">Built high-throughput backend systems powering taxonomy, content hierarchy, and video chaptering workflows.</p><ul><li>Architected Taxonomy Service using versioned hierarchical MongoDB models</li><li>Served 150K+ requests/sec at peak with 98% cache hit rate</li><li>Reduced average response time by 70% from 120ms to 36ms</li><li>Built video chaptering APIs and validation workflows, reducing upload errors by 80%</li></ul><div class="chip-row"><span>Golang</span><span>MongoDB</span><span>Redis</span><span>AWS</span><span>REST APIs</span></div></article>
+        <article class="experience-card"><div class="timeline-dot"></div><div class="experience-topline"><div><h3>Amazon</h3><p>Software Development Engineer</p></div><span>Jul 2020 — Mar 2023</span></div><p class="summary">Shipped backend reliability, automation, and performance improvements across production services.</p><ul><li>Automated deployment and monitoring tasks, saving 5+ hours/week</li><li>Reduced page latency by ~10ms with lazy-loading validated via A/B testing</li><li>Built CPU smoothing mechanism reducing spikes from 75% to 60%</li><li>Led migration of 20+ legacy HTTP headers to improve modularity</li></ul><div class="chip-row"><span>Python</span><span>Boto3</span><span>Java</span><span>AWS Lambda</span><span>S3</span><span>EC2</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell reveal">
+      <div class="section-header"><div><div class="section-label">GitHub Projects</div><h2>AI, backend, and engineering practice.</h2></div><a class="text-link" href="https://github.com/Samyak-jain7" target="_blank">View GitHub →</a></div>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/Samyak-jain7/multi-agent-orchestrator" target="_blank"><div class="project-signal">AI systems</div><h3>Multi-Agent Orchestrator</h3><p>Visual platform to configure and run multiple AI agents for complex tasks, combining workflow orchestration with agent execution.</p><div class="chip-row"><span>TypeScript</span><span>React</span><span>AI Agents</span></div></a>
+        <a class="project-card" href="https://github.com/Samyak-jain7/document-intelligence" target="_blank"><div class="project-signal">Applied AI</div><h3>Document Intelligence</h3><p>RAG-based document platform for PDF upload, text extraction, semantic search, and AI-powered document chat.</p><div class="chip-row"><span>Python</span><span>RAG</span><span>Vector Search</span></div></a>
+        <a class="project-card" href="https://github.com/Samyak-jain7/llm-gateway" target="_blank"><div class="project-signal">Infra</div><h3>LLM Gateway</h3><p>Go-based gateway project exploring LLM API routing patterns, service boundaries, and production-grade backend design.</p><div class="chip-row"><span>Go</span><span>Backend</span><span>APIs</span></div></a>
+        <a class="project-card" href="https://github.com/Samyak-jain7/llm-observability-lite" target="_blank"><div class="project-signal">Devtools</div><h3>LLM Observability Lite</h3><p>Lightweight observability tooling for LLM workflows with focus on traces, debugging, and operational visibility.</p><div class="chip-row"><span>Python</span><span>Observability</span><span>LLMOps</span></div></a>
+        <a class="project-card" href="https://github.com/Samyak-jain7/apple-health-visualizer" target="_blank"><div class="project-signal">Data UI</div><h3>Apple Health Visualizer</h3><p>TypeScript project for turning personal health exports into cleaner visual insights and interactive exploration.</p><div class="chip-row"><span>TypeScript</span><span>Data Viz</span></div></a>
+        <a class="project-card" href="https://github.com/Samyak-jain7/LLD-Practice" target="_blank"><div class="project-signal">Core CS</div><h3>LLD Practice</h3><p>Java low-level design practice repository focused on interview-grade object-oriented design and implementation patterns.</p><div class="chip-row"><span>Java</span><span>LLD</span><span>OOP</span></div></a>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell reveal">
+      <div class="section-header"><div><div class="section-label">Skills</div><h2>Stack built around backend ownership.</h2></div><p>Languages, infra, data systems, observability, and cloud tooling used in real production work.</p></div>
+      <div class="skills-grid"><article class="skill-card"><h3>Languages</h3><div class="chip-row"><span>Java</span><span>Python</span><span>Golang</span><span>C++</span></div></article><article class="skill-card"><h3>Backend</h3><div class="chip-row"><span>Spring Boot</span><span>Django</span><span>Flask</span><span>REST APIs</span><span>Microservices</span></div></article><article class="skill-card"><h3>Data Infra</h3><div class="chip-row"><span>Kafka</span><span>Kafka Connect</span><span>Debezium</span><span>Snowflake</span><span>Streaming Pipelines</span></div></article><article class="skill-card"><h3>Databases</h3><div class="chip-row"><span>MongoDB</span><span>PostgreSQL</span><span>DynamoDB</span><span>Redis</span></div></article><article class="skill-card"><h3>Cloud / DevOps</h3><div class="chip-row"><span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>CI/CD</span></div></article><article class="skill-card"><h3>Observability</h3><div class="chip-row"><span>Prometheus</span><span>Grafana</span><span>VictoriaMetrics</span><span>DataDog</span></div></article></div>
+    </section>
+
+    <section id="contact" class="section-shell contact reveal"><div><div class="section-label">Contact</div><h2>Want backend systems that don't fold under pressure?</h2><p>I'm open to backend, data infrastructure, and AI engineering roles where system design and execution both matter.</p></div><div class="contact-actions"><a class="button primary" href="mailto:sj221097@gmail.com">sj221097@gmail.com</a><a class="button secondary" href="https://www.linkedin.com/in/silver-samyak" target="_blank">LinkedIn</a><a class="button secondary" href="https://github.com/Samyak-jain7" target="_blank">GitHub</a></div></section>
+  </main>
+</body>
+</html>
