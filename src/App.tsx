@@ -1,4 +1,4 @@
-import { contactLinks, experiences, projects, proofPoints, services, skills, stats } from './data';
+import { contactLinks, experiences, projects, services, skills, stats } from './data';
 
 function ChipRow({ items }: { items: string[] }) {
   return (
@@ -25,16 +25,6 @@ function Navigation() {
         <a href="#contact">Contact</a>
       </div>
     </nav>
-  );
-}
-
-function ProofBar() {
-  return (
-    <div className="proof-bar reveal delay-2" aria-label="Career proof points">
-      {proofPoints.map((point) => (
-        <span key={point}>{point}</span>
-      ))}
-    </div>
   );
 }
 
@@ -90,17 +80,6 @@ function Hero() {
             <p className="muted">target: senior_sde + ai_native_sde + applied_ai</p>
           </div>
         </aside>
-      </div>
-
-      <ProofBar />
-
-      <div className="stats-grid reveal delay-2">
-        {stats.map((stat) => (
-          <div className="stat-card" key={stat.value}>
-            <strong>{stat.value}</strong>
-            <span>{stat.label}</span>
-          </div>
-        ))}
       </div>
     </section>
   );

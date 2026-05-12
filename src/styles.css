@@ -94,9 +94,7 @@ main, .nav {
 .hero-actions,
 .hero-links,
 .contact-actions,
-.chip-row,
-.stats-grid,
-.proof-bar {
+.chip-row {
   display: flex;
   align-items: center;
 }
@@ -270,7 +268,6 @@ h3 {
 .project-card,
 .service-card,
 .skill-card,
-.stat-card,
 .contact {
   border: 1px solid var(--border);
   background: linear-gradient(180deg, rgba(22, 27, 34, 0.82), rgba(13, 17, 23, 0.74));
@@ -426,54 +423,6 @@ h3 {
 
 .muted {
   color: var(--text-secondary);
-}
-
-.proof-bar {
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 38px;
-  padding: 14px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.025);
-}
-
-.proof-bar span {
-  flex: 1 1 150px;
-  padding: 12px 14px;
-  color: var(--text-primary);
-  border: 1px solid var(--border);
-  background: rgba(13, 17, 23, 0.58);
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  margin-top: 18px;
-}
-
-.stat-card {
-  padding: 22px;
-  min-height: 132px;
-}
-
-.stat-card strong {
-  display: block;
-  color: var(--accent);
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 42px;
-  line-height: 1;
-}
-
-.stat-card span {
-  display: block;
-  color: var(--text-secondary);
-  margin-top: 13px;
-  font-size: 13px;
-  line-height: 1.55;
 }
 
 .about {
@@ -784,7 +733,6 @@ h3 {
   }
 
   .hero-grid,
-  .stats-grid,
   .project-grid,
   .skills-grid,
   .contact,
@@ -804,7 +752,6 @@ h3 {
     transform: none;
   }
 
-  .stats-grid,
   .project-grid,
   .services-grid,
   .skills-grid {
@@ -853,14 +800,9 @@ h3 {
     width: 100%;
   }
 
-  .hero-links,
-  .proof-bar {
+  .hero-links {
     align-items: stretch;
     flex-direction: column;
-  }
-
-  .proof-bar span {
-    flex-basis: auto;
   }
 
   .project-heading {

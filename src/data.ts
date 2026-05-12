@@ -13,15 +13,6 @@ export const contactLinks = {
   github: 'https://github.com/Samyak-jain7',
 };
 
-export const proofPoints = [
-  'Amazon',
-  'Fivetran',
-  'Observe.AI',
-  'Allen Digital',
-  'Backend ownership',
-  'AI-native systems',
-];
-
 export const experiences = [
   {
     company: 'Observe.AI',
